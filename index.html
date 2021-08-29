@@ -21,6 +21,7 @@
             <input id="search-input" type="text" class="form-control" placeholder="Search Meal">
             <button class="btn btn-outline-secondary text-white" type="button" id="btn-search">Search</button>
         </div>
+        <p id="empty-error" class="text-danger fs-5 text-center" style="display: none;">Enter something to search</p>
     </header>
     <main>
         <!-- single meal details -->
@@ -37,6 +38,8 @@
             <div id="search-results" class="row text-dark gy-3">
                 <!-- display meal using js here -->
             </div>
+            <p id="result-error" class="text-danger fs-5 text-center mt-4" style="display: none;">Nothing Found.
+                Please search another</p>
         </section>
     </main>
 
