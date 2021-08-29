@@ -9,15 +9,77 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="bg-secondary">
+<body>
     <header>
         <h1 class="text-center mt-4">Food bank</h1>
         <p class="text-center">Search your favourite food and get their information</p>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input type="text" class="form-control" placeholder="Search Meal" aria-label="Search Meal">
+            <button class="btn btn-outline-secondary text-white" type="button" id="btn-search">Search</button>
+        </div>
     </header>
-    <main></main>
+    <main>
+        <!-- single meal details -->
+        <section class="container">
+            <h4 class="text-center">Single meal details</h4>
+            <div class="row text-dark gy-3">
+                <div class="col-lg-5 col-md-8 mx-auto">
+                    <div class="card">
+                        <img src="../random-quote-generator/images/quote-bg1.png" class="card-img-top" height="250">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search results -->
+        <section class="container my-4">
+            <h4 class="text-center ">Search results</h4>
+            <div class="row text-dark gy-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="../random-quote-generator/images/quote-bg1.png" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Special title treatment</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="../random-quote-generator/images/quote-bg1.png" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Special title treatment</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="../random-quote-generator/images/quote-bg1.png" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Special title treatment</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="text-center my-4 text-white fw-bold">Developed by <a class="text-decoration-none"
+                href="https://www.linkedin.com/in/arifulsajib/" target="_blank">Ariful Islam</a>, 2021
+        </p>
+    </footer>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
