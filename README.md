@@ -1,4 +1,4 @@
-## food bank using JS API
+## Food bank using JS API
 Search your favourite meal/food and get detailed info of the meal. all the meals are fetched using api
 
 ### Features
