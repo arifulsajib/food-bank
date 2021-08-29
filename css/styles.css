@@ -2,3 +2,7 @@ body {
     background-color: #1b1d29;
     color: white;
 }
+
+main {
+    min-height: calc(100vh - 255px);
+}
