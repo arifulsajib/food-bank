@@ -80,6 +80,9 @@ const displaySpecificMeal = (meals) => {
         </div>
         `;
         specificMeal.appendChild(div);
+
+        // scroll to specfic section
+        document.getElementById('specific-meal-section').scrollIntoView();
     }
 }
 
